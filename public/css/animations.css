@@ -1,0 +1,29 @@
+@keyframes OpeningSite {
+    0% {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        background-color: var(--colorBack);
+    }
+}
+
+@keyframes ComeToLeft {
+    0% {
+        left: -1000px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes ComeToRight {
+    0% {
+        right: -1000px;
+    }
+
+    100% {
+        right: 0;
+    }
+}

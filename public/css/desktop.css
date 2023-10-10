@@ -1,0 +1,190 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/**********HEADER********************************/
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: var(--fontTitle);
+    padding-top: 100px;
+    padding-bottom: 20px;
+    z-index: 1;
+    font-size: var(--sizeTitle);
+    letter-spacing: 5px;
+}
+
+header img {
+    position: absolute;
+    width: 200px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+header p {
+    z-index: 1;
+    font-size: var(--fontText);
+}
+
+/**********MAIN*************************/
+
+main {
+    width: 100%;
+    z-index: 1
+}
+
+main>* {
+    z-index: inherit;
+}
+
+section {
+    margin: 40px 0;
+    width: 100%;
+}
+
+/**********NAV*************************/
+
+#navSection nav {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 200px;
+}
+
+#navSection nav div {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid var(--colorFont);
+    padding: 3px;
+    width: 48%;
+    min-width: 460px;
+}
+
+.comeToLeft {
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.comeToRight {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: start;
+}
+
+.come1st {
+    top: 0px;
+    animation: ComeToLeft 1s;
+}
+
+.come2nd {
+    top: 40px;
+    animation: ComeToRight 1.3s;
+}
+
+.come3rd {
+    top: 80px;
+    animation: ComeToLeft 1.6s;
+}
+
+.come4th {
+    top: 120px;
+    animation: ComeToRight 1.9s;
+}
+
+.come5th {
+    top: 160px;
+    animation: ComeToLeft 2.2s;
+}
+
+#callToContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: var(--sizeText);
+}
+
+.linkBtn {
+    background-color: var(--colorButton);
+    color: var(--colorFont2);
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+
+.linkBtn:hover {
+    background-color: var(--colorBtnHover);
+    transition: 0.2s;
+}
+
+/**********PROJECTSECTION*************************/
+
+h2 {
+    font-family: var(--fontTitle);
+    font-size: var(--sizeTitle);
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.sectionContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.sectionContent div {
+    background-color: var(--colorShadow);
+    width: 1000px;
+    height: 200px;
+    padding: 40px;
+    transform: rotate(1deg);
+}
+
+.sectionContent div p {
+    transform: rotate(-1deg);
+}
+
+/**********HELLOSECTION***********************/
+
+#helloSection {
+    position: relative;
+    background-color: var(--colorShadow);
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#helloSection .profil {
+    position: absolute;
+    border: 15px solid var(--colorBack);
+    top: -20px;
+    left: -20px;
+    transform: rotate(-2deg);
+}
+
+#helloSection .description {
+    display: flex;
+}

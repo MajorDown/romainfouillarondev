@@ -1,0 +1,49 @@
+/*GLOBALS*/
+:root {
+    --colorBack: rgb(230, 230, 230);
+    --colorFont: rgb(0, 63, 108);
+    --colorFont2: rgb(255, 255, 255);
+    --colorShadow: rgba(0, 63, 108, 0.1);
+    --colorButton: rgb(151, 91, 0);
+    --colorBtnHover: rgb(228, 137, 0);
+    --colorIcon: rgb(0, 96, 102);
+    --fontTitle: 'Overpass Mono', monospace;
+    --fontNormal: 'Montserrat', sans-serif;
+    --sizeTitle: 40px;
+    --sizeSubTitle: 30px;
+    --sizeText: 20px;
+    --sizeMobileText: 2.3vw;
+    --radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--fontNormal);
+    font-size: var(--sizeText);
+    color: var(--colorFont);
+}
+
+
+::-webkit-scrollbar {
+    width: 1.6vw;
+    max-width: 16px;
+    background-color: var(--colorBack);
+}
+
+::-moz-scrollbar {
+    width: 1.6vw;
+    max-width: 16px;
+    background-color: var(--colorBack);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--colorShadow);
+    border-radius: 0.8vw;
+}
+
+::-moz-scrollbar-thumb {
+    background-color: var(--colorShadow);
+    border-radius: 0.8vw;
+}

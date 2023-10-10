@@ -1,0 +1,38 @@
+body {
+    animation-name: OpeningSite;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    background-color: var(--colorBack);
+}
+
+.bg-icon {
+    position: absolute;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    width: 15vw;
+    z-index: 0;
+}
+
+.top-right {
+    top: 10%;
+    right: 0;
+    width: 20vw;
+    z-index: 0;
+}
+
+.bottom-left {
+    top: 50%;
+    left: 0;
+    width: 20vw;
+    z-index: 0;
+}
+
+.bottom-right {
+    top: 65%;
+    right: 10vw;
+    width: 30vw;
+    z-index: 0;
+}

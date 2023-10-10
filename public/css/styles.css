@@ -1,0 +1,7 @@
+/*IMPORT CSS (DESKTOP FIRST)*/
+@import url('chart.css');
+@import url('animations.css');
+@import url('background.css');
+@import url('desktop.css');
+@import url('tablet.css') screen and (max-width: 768px);
+@import url('mobile.css') screen and (max-width: 340px);

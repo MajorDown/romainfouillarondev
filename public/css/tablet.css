@@ -1,0 +1,55 @@
+body {
+    font-size: var(--sizeMobileText);
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+header img {
+    width: 80px;
+    top: 5px;
+}
+
+header p {
+    font-size: var(--sizeMobileText);
+}
+
+#navSection nav div {
+    min-width: 320px;
+}
+
+a {
+    font-size: var(--sizeMobileText);
+}
+
+p {
+    font-size: var(--sizeMobileText);
+}
+
+.come1st {
+    top: 0px;
+}
+
+.come2nd {
+    top: 25px;
+}
+
+.come3rd {
+    top: 50px;
+}
+
+.come4th {
+    top: 75px;
+}
+
+.come5th {
+    top: 100px;
+}
+
+#navSection nav {
+    height: 120px;
+}
