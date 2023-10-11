@@ -144,7 +144,6 @@ a {
 h2 {
     font-family: var(--fontTitle);
     font-size: var(--sizeTitle);
-    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -171,20 +170,57 @@ h2 {
 
 #helloSection {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--colorShadow);
-    width: 70%;
-    height: 400px;
+    width: 65%;
+    gap: 40px;
     margin: 0 auto;
+    padding: 20px;
+}
+
+#helloSection h2 {
+    padding-left: 340px;
 }
 
 #helloSection .profil {
     position: absolute;
     border: 15px solid var(--colorBack);
-    top: -20px;
+    top: -30px;
     left: -20px;
     transform: rotate(-2deg);
+    width: 20vw;
+    max-width: 270px;
+    height: 20vw;
+    max-height: 270px;
 }
 
-#helloSection .description {
+#description {
+    padding-left: 15vw;
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 1vw;
+}
+
+#technoList {
     display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#technoList img {
+    object-fit: fill;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+#helloSection nav {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
 }
