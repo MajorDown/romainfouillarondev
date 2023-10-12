@@ -128,9 +128,10 @@ a {
 
 .linkBtn {
     background-color: var(--colorButton);
+    text-align: center;
     color: var(--colorFont2);
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 10px 15px;
     transition: 0.2s;
 }
 
@@ -173,35 +174,41 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-end;
     background-color: var(--colorShadow);
     width: 65%;
-    gap: 40px;
+    gap: 3vw;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
 }
 
 #helloSection h2 {
-    padding-left: 340px;
+    width: 75%;
+}
+
+#presentation {
+    display: flex;
 }
 
 #helloSection .profil {
     position: absolute;
     border: 15px solid var(--colorBack);
     top: -30px;
-    left: -20px;
+    left: -40px;
     transform: rotate(-2deg);
     width: 20vw;
-    max-width: 270px;
+    max-width: 250px;
     height: 20vw;
     max-height: 270px;
+    shape-outside: content-box;
 }
 
 #description {
-    padding-left: 15vw;
-    padding-right: 20px;
+    width: 75%;
+    height: min-content;
     text-align: justify;
-    font-size: 1vw;
 }
+
 
 #technoList {
     display: flex;
@@ -211,16 +218,33 @@ h2 {
     flex-wrap: wrap;
 }
 
-#technoList img {
-    object-fit: fill;
-}
-
 .centeredText {
+    width: 100%;
     text-align: center;
 }
 
 #helloSection nav {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 5%;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 910px) {
+
+    #helloSection {
+        padding: 30px;
+    }
+
+    #description {
+        width: 100%;
+    }
+
+    #helloSection nav {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    #technoList img {
+        width: 7%;
+    }
 }

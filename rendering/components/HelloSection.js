@@ -5,11 +5,9 @@ const HelloSection = () => {
             <img class="profil" src="images/profil.jpg" alt="photo" width=300>
             <p id="description">
                 consectetur nisi nostrum. Fugit, aperiam voluptates a, blanditiis suscipit, 
-                reprehenderit autem sunt quia perspiciatis omnis tempore similique sequi 
+                    reprehenderit autem sunt quia perspiciatis omnis tempore similique sequi 
                 laboriosam illum nulla accusamus dolorum facere fuga earum inventore corporis 
                 maiores et minima libero? Cumque consectetur atque possimus voluptatum 
-                molestias? Saepe voluptate optio unde? Non molestiae doloribus dolores. 
-                Expedita ducimus atque omnis corrupti dolorem minima veritatis officia possimus
             </p>
             <div id="technoList">
                 <img src="/images/icons/html.png" alt="html5" />
@@ -26,7 +24,7 @@ const HelloSection = () => {
                 <img src="/images/icons/wordpress.png" alt="wordpress" />
                 <img src="/images/icons/react-native.png" alt="react-native" />
             </div>
-            <p class="centeredText">Vous voulez en savoir plus sur moi ?</p>
+            <p class="centeredText">Vous voulez en savoir plus ?</p>
             <nav>
             <a class="linkBtn" href="#">Mes outils</a>
             <a class="linkBtn" href="#">Mon Portfolio</a>
