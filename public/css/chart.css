@@ -7,6 +7,7 @@
     --colorButton: rgb(151, 91, 0);
     --colorBtnHover: rgb(228, 137, 0);
     --colorIcon: rgb(0, 96, 102);
+    --boxShadow: 10px 10px 20px 0px rgba(151, 91, 0, 0.331);
     --fontTitle: 'Overpass Mono', monospace;
     --fontNormal: 'Montserrat', sans-serif;
     --sizeTitle: 40px;

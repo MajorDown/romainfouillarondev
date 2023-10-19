@@ -27,13 +27,21 @@ const ProjectSection = () => {
         <div class="sectionContent">
             <div class="content r1">
                 <h3>une API</h3>
-                <p>une API, ou "interface de programmation d'application", ça fais parfois des miracles : bese de donnée, authentification, automatisation des mails... tout deviens possible !</p> 
+                <p>une API, ou "interface de programmation d'application", est un service qui  fais parfois des miracles : base de donnée, authentification, automatisation des mails... tout deviens possible !</p> 
             </div>        
             <div class="content r2">
             <h3>un réseau social</h3>
                 <p>Les projets de sites communautaires sont devenus une solution idéale pour la communication au sein d'entreprises ayant un grand nombre de salariés</p>
             </div>      
         </div>
+        <div class="sectionContent">
+        <div class="content r2">
+            <h3>... Et l'hébergement ? Et la maintenance ?</h3>
+            <p>Avoir un site web, c'est bien. Et pouvoir être assuré de son bon fonctionnement... c'est pas mal, aussi.</p>
+            <p>C'est pourquoi je propose également de m'occuper de la gestion et de la maintenance de votre site.</p>
+            <p>Hébergement partagé, dédié ou VPS, sous Linux ou Windows Server, si cette partie vous fais peur... Pas de problême ! je prend le relais.</p> 
+        </div>            
+    </div>
     </section>
     `;
 };
