@@ -57,8 +57,36 @@ p {
 
 #helloSection {
     width: 75%;
+    gap: 3vw;
+}
+
+#helloSection .profil {
+    top: -10px;
+    left: -10px;
+}
+
+#helloSection h2 {
+    padding: 3vw;
 }
 
 #helloSection .profil {
     border: 10px solid var(--colorBack);
+}
+
+.sectionContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sectionContent div {
+    width: 95%;
+    padding: 20px;
+}
+
+.sectionContent img {
+    width: 128px;
+    height: 128px;
 }

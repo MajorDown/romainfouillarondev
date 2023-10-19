@@ -6,7 +6,7 @@ body {
 }
 
 .bg-icon {
-    position: absolute;
+    position: fixed;
 }
 
 .top-left {

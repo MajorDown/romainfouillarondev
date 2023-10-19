@@ -43,7 +43,8 @@ header p {
 
 main {
     width: 100%;
-    z-index: 1
+    z-index: 1;
+    overflow-x: hidden;
 }
 
 main>* {
@@ -113,12 +114,14 @@ section {
 }
 
 #callToContact {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
     gap: 20px;
+    animation: ComeToRight 2.5s;
 }
 
 a {
@@ -140,33 +143,6 @@ a {
     transition: 0.2s;
 }
 
-/**********PROJECTSECTION*************************/
-
-h2 {
-    font-family: var(--fontTitle);
-    font-size: var(--sizeTitle);
-    text-align: center;
-}
-
-.sectionContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
-
-.sectionContent div {
-    background-color: var(--colorShadow);
-    width: 1000px;
-    height: 200px;
-    padding: 40px;
-    transform: rotate(1deg);
-}
-
-.sectionContent div p {
-    transform: rotate(-1deg);
-}
-
 /**********HELLOSECTION***********************/
 
 #helloSection {
@@ -177,9 +153,11 @@ h2 {
     align-items: flex-end;
     background-color: var(--colorShadow);
     width: 65%;
-    gap: 3vw;
+    max-width: 750px;
+    gap: 35px;
     margin: 0 auto;
     padding: 40px;
+    animation: ComeToLeft 2.6s;
 }
 
 #helloSection h2 {
@@ -193,7 +171,7 @@ h2 {
 #helloSection .profil {
     position: absolute;
     border: 15px solid var(--colorBack);
-    top: -30px;
+    top: -35px;
     left: -40px;
     transform: rotate(-2deg);
     width: 20vw;
@@ -204,11 +182,10 @@ h2 {
 }
 
 #description {
-    width: 75%;
+    width: 70%;
     height: min-content;
     text-align: justify;
 }
-
 
 #technoList {
     display: flex;
@@ -227,6 +204,65 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+/**********PROJECTSECTION*************************/
+
+#projectSection {
+    padding: 20px;
+}
+
+h2 {
+    padding: 20px;
+    font-family: var(--fontTitle);
+    font-size: var(--sizeTitle);
+    text-align: center;
+}
+
+.whatICanDo {
+    text-align: center;
+}
+
+.sectionContent {
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 75%;
+    max-width: 1000px;
+}
+
+.content {
+    background-color: var(--colorShadow);
+    padding: 2vw;
+    text-align: center;
+}
+
+.sectionContent p {
+    font-size: 15px;
+}
+
+.content.r1 {
+    transform: rotate(-1deg);
+}
+
+.content.r1>* {
+    transform: rotate(1deg);
+}
+
+.content.r2 {
+    transform: rotate(1deg);
+}
+
+.content.r2>* {
+    transform: rotate(-1deg);
+}
+
+.content h3 {
+    font-size: 3.5vw;
+    padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 910px) {

@@ -4,10 +4,9 @@ const HelloSection = () => {
             <h2>A propos de moi...</h2>
             <img class="profil" src="images/profil.jpg" alt="photo" width=300>
             <p id="description">
-                consectetur nisi nostrum. Fugit, aperiam voluptates a, blanditiis suscipit, 
-                    reprehenderit autem sunt quia perspiciatis omnis tempore similique sequi 
-                laboriosam illum nulla accusamus dolorum facere fuga earum inventore corporis 
-                maiores et minima libero? Cumque consectetur atque possimus voluptatum 
+                Spécialiste des technologies Javascript / Node.js, 
+                Je suis toujours en quète des dernières mises à jours et
+                tendances du moment.
             </p>
             <div id="technoList">
                 <img src="/images/icons/html.png" alt="html5" />
