@@ -4,6 +4,8 @@ const Header = require("../components/Header");
 const NavSection = require("../components/NavSection");
 const HelloSection = require("../components/HelloSection");
 const ProjectSection = require("../components/ProjectSection");
+const RevisionSection = require("../components/RevisionSection");
+const DevSection = require("../components/DevSection");
 
 const Accueil = () => {
   return /*html*/ `
@@ -17,6 +19,8 @@ const Accueil = () => {
                 ${NavSection()}
                 ${HelloSection()}
                 ${ProjectSection()}
+                ${RevisionSection()}
+                ${DevSection()}
             </main>
         </body>
     </html>

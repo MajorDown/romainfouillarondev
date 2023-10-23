@@ -90,3 +90,8 @@ p {
     width: 128px;
     height: 128px;
 }
+
+.content h3 {
+    font-size: 6vw;
+    padding-bottom: 20px;
+}
