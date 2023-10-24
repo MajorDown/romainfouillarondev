@@ -73,6 +73,10 @@ p {
     border: 10px solid var(--colorBack);
 }
 
+.serviceSection {
+    width: 95%;
+}
+
 .sectionContent {
     display: flex;
     flex-direction: column;

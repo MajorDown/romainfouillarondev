@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-y: scroll;
 }
 
 
@@ -45,6 +46,7 @@ main {
     width: 100%;
     z-index: 1;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 main>* {
@@ -54,6 +56,19 @@ main>* {
 section {
     margin: 40px 0;
     width: 100%;
+}
+
+.serviceSection {
+    margin: 40px auto;
+    padding: 20px;
+    border: solid 1px var(--colorBtnHover);
+    border-radius: 20px;
+    width: 75%;
+}
+
+.serviceSection h2 {
+    text-decoration-line: underline;
+    text-decoration-color: var(--colorBtnHover);
 }
 
 /**********NAV*************************/
@@ -175,9 +190,9 @@ a {
     left: -40px;
     transform: rotate(-2deg);
     width: 20vw;
-    max-width: 250px;
+    max-width: 220px;
     height: 20vw;
-    max-height: 270px;
+    max-height: 220px;
     shape-outside: content-box;
 }
 
@@ -195,6 +210,11 @@ a {
     flex-wrap: wrap;
 }
 
+.technoIcon {
+    width: 64px;
+    height: 64px;
+}
+
 .centeredText {
     width: 100%;
     text-align: center;
@@ -210,6 +230,11 @@ a {
 
 #projectSection {
     padding: 20px;
+}
+
+.sectionIcon {
+    width: 297px;
+    height: 297px;
 }
 
 h2 {
@@ -230,7 +255,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    width: 75%;
+    width: 100%;
     max-width: 1000px;
 }
 
@@ -290,5 +315,6 @@ h2 {
 
     #technoList img {
         width: 7%;
+        height: auto;
     }
 }
