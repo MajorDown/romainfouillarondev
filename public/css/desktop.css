@@ -66,6 +66,25 @@ section {
     width: 75%;
 }
 
+.titleAndReturn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.titleAndReturn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.titleAndReturn img {
+    width: 35px;
+    height: 35px;
+}
+
 .serviceSection h2 {
     text-decoration-line: underline;
     text-decoration-color: var(--colorBtnHover);

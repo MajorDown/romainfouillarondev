@@ -1,7 +1,10 @@
 const RevisionSection = () => {
   return /*html*/ `
         <section id="revisionSection" class="serviceSection">
-            <h2>Votre site web a besoin d'être révisé ?</h2>
+            <div class="titleAndReturn">
+                <h2>Votre site web a besoin d'être révisé ?</h2>
+                <a href="#header">retour<img src="/images/icons/back.png" alt="return to top"/></a>
+            </div>
             <div class="sectionContent">
                 <div class="content r1">
                     <p>Il est très courant de vouloir remettre son site au gout du jour, qu'il s'agisse de modifier certains aspects, certaines informations, ou alors d'une refonte totale.</p>

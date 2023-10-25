@@ -1,7 +1,10 @@
 const ProjectSection = () => {
   return /*html*/ `
     <section id="projectSection" class="serviceSection">
-        <h2>Un nouveau projet en tête ?</h2>
+        <div class="titleAndReturn">
+            <h2>Un nouveau projet en tête ?</h2>
+            <a href="#header">retour<img src="/images/icons/back.png" alt="return to top"/></a>
+        </div>
         <div class="sectionContent">
             <img class="sectionIcon" src="/images/icons/project.png" alt="project">
             <div class="content r1">

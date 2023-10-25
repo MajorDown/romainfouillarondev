@@ -1,7 +1,10 @@
 const DevSection = () => {
   return /*html*/ `
         <section id="devSection" class="serviceSection">
-            <h2>Besoin de créer une application ?</h2>
+            <div class="titleAndReturn">
+                <h2>Besoin de créer une application ?</h2>
+                <a href="#header">retour<img src="/images/icons/back.png" alt="return to top"/></a>
+            </div>
             <div class="sectionContent">
                 <img class="sectionIcon" src="/images/icons/dev.png" alt="dev">
                 <div class="content r1">
