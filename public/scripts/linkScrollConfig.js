@@ -7,7 +7,7 @@ function linkScrollConfig() {
       const target = document.getElementById(targetId);
       const targetPosition = target.getBoundingClientRect().top;
       window.scroll({
-        top: targetPosition || 0,
+        top: targetPosition,
         left: 0,
         behavior: "smooth",
       });

@@ -37,3 +37,21 @@
         bottom: 0;
     }
 }
+
+@keyframes Appear {
+    0% {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    1% {
+        display: block;
+    }
+
+
+    100% {
+        width: 100%;
+        height: auto;
+    }
+}

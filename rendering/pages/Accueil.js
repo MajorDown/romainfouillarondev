@@ -6,6 +6,7 @@ const HelloSection = require("../components/HelloSection");
 const ProjectSection = require("../components/ProjectSection");
 const RevisionSection = require("../components/RevisionSection");
 const DevSection = require("../components/DevSection");
+const SeoSection = require("../components/SeoSection");
 const HostSection = require("../components/HostSection");
 const FrontScripts = require("../components/FrontScripts");
 
@@ -23,6 +24,7 @@ const Accueil = () => {
                 ${ProjectSection()}
                 ${RevisionSection()}
                 ${DevSection()}
+                ${SeoSection()}
                 ${HostSection()}
             </main>
             ${FrontScripts()}
