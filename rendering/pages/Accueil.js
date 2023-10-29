@@ -8,6 +8,7 @@ const RevisionSection = require("../components/RevisionSection");
 const DevSection = require("../components/DevSection");
 const SeoSection = require("../components/SeoSection");
 const HostSection = require("../components/HostSection");
+const Footer = require("../components/Footer");
 const FrontScripts = require("../components/FrontScripts");
 
 const Accueil = () => {
@@ -27,6 +28,7 @@ const Accueil = () => {
                 ${SeoSection()}
                 ${HostSection()}
             </main>
+            ${Footer()}
             ${FrontScripts()}
         </body>
     </html>
