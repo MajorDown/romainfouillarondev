@@ -55,6 +55,7 @@ main>* {
 
 section {
     margin: 40px 0;
+    padding: 20px;
     width: 100%;
 }
 
@@ -221,19 +222,6 @@ a {
     text-align: justify;
 }
 
-#technoList {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.technoIcon {
-    width: 64px;
-    height: 64px;
-}
-
 .centeredText {
     width: 100%;
     text-align: center;
@@ -245,11 +233,7 @@ a {
     justify-content: space-evenly;
 }
 
-/**********PROJECTSECTION*************************/
-
-#projectSection {
-    padding: 20px;
-}
+/**********ACCUEIL*************************/
 
 .sectionIcon {
     width: 297px;
@@ -317,6 +301,60 @@ h2 {
     padding-bottom: 20px;
 }
 
+/**********PORTFOLIO********************************/
+
+.mySection {
+    margin: 40px auto;
+    width: 90%;
+    max-width: 900px;
+    background: var(--colorShadow);
+}
+
+.mySection article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mySection.r1 {
+    transform: rotate(-1deg);
+}
+
+.mySection.r1>* {
+    transform: rotate(1deg);
+}
+
+.mySection.r2 {
+    transform: rotate(1deg);
+}
+
+.mySection.r2>* {
+    transform: rotate(-1deg);
+}
+
+.mySection article div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.technoIcon {
+    width: 64px;
+    height: 64px;
+    transition: 0.3s;
+}
+
+.technoIcon:hover {
+    animation: TechnoAwake 0.5s;
+}
+
+
+/**********BREAKPOINT 910***************************/
+
 @media only screen and (max-width: 910px) {
 
     #helloSection {
@@ -330,10 +368,5 @@ h2 {
     #helloSection nav {
         flex-wrap: wrap;
         gap: 5px;
-    }
-
-    #technoList img {
-        width: 7%;
-        height: auto;
     }
 }
