@@ -352,6 +352,10 @@ h2 {
     animation: TechnoAwake 0.5s;
 }
 
+.hoverItem {
+    transition: 0.3s;
+}
+
 
 /**********BREAKPOINT 910***************************/
 

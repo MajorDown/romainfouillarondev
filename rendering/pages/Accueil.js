@@ -29,7 +29,7 @@ const Accueil = () => {
                 ${HostSection()}
             </main>
             ${Footer()}
-            ${FrontScripts()}
+            <script defer src="/scripts/linkScrollConfig.js"></script>
         </body>
     </html>
     `;

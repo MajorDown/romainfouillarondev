@@ -17,8 +17,9 @@ const Portfolio = () => {
                 ${MyTools()}
             </main>
             ${Footer()}
-            ${FrontScripts()}
-        </body>
+            <script defer src="/scripts/linkScrollConfig.js"></script>
+            <script defer src="/scripts/hoverItem.js"></script>
+            </body>
     </html>
     `;
 };
