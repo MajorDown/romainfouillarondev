@@ -245,6 +245,8 @@ h2 {
     font-family: var(--fontTitle);
     font-size: var(--sizeTitle);
     text-align: center;
+    z-index: 21;
+    background-color: var(--boxShadow);
 }
 
 .whatICanDo {
@@ -304,6 +306,7 @@ h2 {
 /**********PORTFOLIO********************************/
 
 .mySection {
+    z-index: 20;
     margin: 40px auto;
     width: 90%;
     max-width: 900px;
@@ -334,12 +337,17 @@ h2 {
     transform: rotate(-1deg);
 }
 
+.mySection h3 {
+    background-color: var(--boxShadow);
+}
+
 .mySection article div {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
+    background-color: var(--boxShadow);
 }
 
 .technoIcon {
@@ -353,7 +361,16 @@ h2 {
 }
 
 .hoverItem {
-    transition: 0.3s;
+    z-index: 21;
+    animation: technoInfo 0.5s;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#myTools article {
+    padding-bottom: 30px;
 }
 
 

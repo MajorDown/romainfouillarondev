@@ -27,17 +27,15 @@ function getHoverItem(event) {
   item.style.position = "absolute";
   item.style.top = event.clientY - 30;
   item.style.left = event.clientX + 20;
-  item.style.zIndex = 20;
-  item.style.padding = "10px";
   item.style.backgroundColor = "white";
   item.style.border = "solid 2px black";
   item.style.borderRadius = "20px";
   item.style.transition = "0.3s";
-  if (event.target.attributes.hoverData.nodeValue) {
-    item.innerHTML = `${
-      event.target.attributes.alt.nodeValue
-    } : ${getPassedTime(event.target.attributes.hoverData.nodeValue)}`;
-  }
+  item.innerHTML += `${event.target.attributes.alt.nodeValue}`;
+  if (event.target.attributes.hoverData)
+    item.innerHTML += ` : ${getPassedTime(
+      event.target.attributes.hoverData.nodeValue
+    )}`;
   event.target.addEventListener("mousemove", (event) => {
     item.style.top = event.clientY - 30 + "px";
     item.style.left = event.clientX + 20 + "px";
@@ -56,12 +54,7 @@ function setHoverElements(className) {
       });
     });
     hoverableElement.addEventListener("click", (event) => {
-      getHoverItem(event);
-      setTimeout(() => {
-        document.querySelectorAll(".hoverItem").forEach((item) => {
-          item.remove();
-        });
-      }, 5000);
+      console.log(event);
     });
   });
 }
