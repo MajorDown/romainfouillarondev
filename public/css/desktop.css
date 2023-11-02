@@ -6,6 +6,15 @@ body {
     overflow-y: scroll;
 }
 
+#backToAccueil {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    z-index: 90;
+}
 
 /**********HEADER********************************/
 
@@ -192,7 +201,6 @@ a {
     gap: 35px;
     margin: 0 auto;
     padding: 40px;
-    animation: ComeToLeft 2.6s;
 }
 
 #helloSection h2 {
@@ -319,7 +327,7 @@ h2 {
     display: flex;
     background: var(--colorShadow);
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }

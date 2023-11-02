@@ -1,7 +1,7 @@
 const MyTools = () => {
   return /*html*/ `
-        <h2>Mes Outils</h2>
         <section id="myTools" class="mySection">
+            <h2>Mes Outils</h2>
             <article class="r1">
                 <h3>Mes technos' de prédilection</h3>
                 <div id="myTechnos">

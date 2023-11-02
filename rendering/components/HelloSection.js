@@ -10,9 +10,9 @@ const HelloSection = () => {
                 Vous souhaitez en savoir plus ?
             </p>
             <nav>
-                <a class="linkBtn" href="/portfolio">Mes outils</a>
-                <a class="linkBtn" href="/portfolio">Mon Portfolio</a>
-                <a class="linkBtn" href="/portfolio">Mes passions</a>
+                <a class="linkBtn" href="/portfolio#myTools">Mes outils</a>
+                <a class="linkBtn" href="/portfolio#myPortfolio">Mon Portfolio</a>
+                <a class="linkBtn" href="/portfolio#myActualsProject">Mes passions</a>
             </nav>
         </section>
     `;

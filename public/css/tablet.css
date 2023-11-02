@@ -99,3 +99,36 @@ p {
     font-size: 6vw;
     padding-bottom: 20px;
 }
+
+/**********PORTFOLIO**********************************/
+
+.mySection article div {
+    gap: 10px;
+}
+
+.technoIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.laptopViewerContainer {
+    width: 300px;
+    height: 158px;
+}
+
+.laptopViewerContent {
+    top: 13px;
+    width: 243.5px;
+    height: 128.5px;
+}
+
+.mobileViewerContainer {
+    width: 150px;
+    height: 284.5px;
+}
+
+.mobileViewerContent {
+    top: 25px;
+    width: 140px;
+    height: 235px;
+}

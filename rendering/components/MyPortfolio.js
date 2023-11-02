@@ -14,8 +14,8 @@ const portfolioImages = {
 
 const MyPortfolio = () => {
   return /*html*/ `
-        <h2>Quelques projets</h2>
-        <section id="myPortfolio" class="mySection">
+      <section id="myPortfolio" class="mySection">
+          <h2>Mon Portfolio</h2>
             <article class="r1">
                 <h3>Les Pierres Folles</h3>
                 <p class="projectDescription">Une application de référencement des dolmen, 
