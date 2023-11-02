@@ -1,8 +1,8 @@
 const MyTools = () => {
   return /*html*/ `
-        <section id="myTools" class="mySection r1">
-            <h2>Mes Outils</h2>
-            <article>
+        <h2>Mes Outils</h2>
+        <section id="myTools" class="mySection">
+            <article class="r1">
                 <h3>Mes technos' de prédilection</h3>
                 <div id="myTechnos">
                     <img class="technoIcon" src="/images/icons/technos/html.png" alt="HTML" hoverData="01/2013"/>
@@ -23,7 +23,7 @@ const MyTools = () => {
                     <img class="technoIcon" src="/images/icons/technos/prestashop.png" alt="prestashop" hoverData="03/2023"/>
                 </div>
             </article>
-            <article>
+            <article class="r2">
                 <h3>Mon attirail de Travail</h3>
                 <div id="myMachine">
                 <img class="technoIcon" src="/images/icons/tools/windows.png" alt="Windows"/>
@@ -34,7 +34,6 @@ const MyTools = () => {
                 <img class="technoIcon" src="/images/icons/tools/lighthouse.png" alt="LightHouse"/>
                 <img class="technoIcon" src="/images/icons/tools/postman.png" alt="Postman"/>
                 <img class="technoIcon" src="/images/icons/tools/figma.png" alt="Figma"/>  
-
                 </div>
             </article>
         </section>

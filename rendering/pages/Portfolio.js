@@ -3,7 +3,18 @@ const Background = require("../components/background");
 const Header = require("../components/Header");
 const MyTools = require("../components/MyTools");
 const Footer = require("../components/Footer");
-const FrontScripts = require("../components/FrontScripts");
+const MyPortfolio = require("../components/MyPortfolio");
+
+const portfolioImages = {
+  les_pierres_folles_laptop: {
+    url: "/images/portfolio/les_pierres_folles_laptop.jpg",
+    alt: "Les Pierres Folles",
+  },
+  les_pierres_folles_mobile: {
+    url: "/images/portfolio/les_pierres_folles_mobile.jpg",
+    alt: "les Pierres Folles",
+  },
+};
 
 const Portfolio = () => {
   return /*html*/ `
@@ -15,6 +26,7 @@ const Portfolio = () => {
             ${Header()}
             <main>
                 ${MyTools()}
+                ${MyPortfolio()}
             </main>
             ${Footer()}
             <script defer src="/scripts/linkScrollConfig.js"></script>

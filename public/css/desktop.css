@@ -306,34 +306,37 @@ h2 {
 /**********PORTFOLIO********************************/
 
 .mySection {
-    z-index: 20;
-    margin: 40px auto;
-    width: 90%;
-    max-width: 900px;
-    background: var(--colorShadow);
+    margin: 0px auto;
+    width: 1200px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .mySection article {
+    padding: 40px;
     display: flex;
+    background: var(--colorShadow);
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
 }
 
-.mySection.r1 {
+.mySection article.r1 {
     transform: rotate(-1deg);
 }
 
-.mySection.r1>* {
+.mySection article.r1>* {
     transform: rotate(1deg);
 }
 
-.mySection.r2 {
+.mySection article.r2 {
     transform: rotate(1deg);
 }
 
-.mySection.r2>* {
+.mySection article.r2>* {
     transform: rotate(-1deg);
 }
 
@@ -373,6 +376,56 @@ h2 {
     padding-bottom: 30px;
 }
 
+.projectDescription {
+    text-align: center;
+}
+
+.laptopViewer {
+    position: relative;
+    display: flex;
+    width: 700px;
+    z-index: 20;
+    transform: rotate(-1deg);
+}
+
+.laptopViewerContent {
+    z-index: 19;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mobileViewer {
+    z-index: 20;
+    display: flex;
+    width: 300px;
+    position: relative;
+    transform: rotate(1deg);
+}
+
+.mobileViewerContent {
+    z-index: 19;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.projectLinks {
+    display: flex;
+    gap: 30px;
+}
+
+.projectLinks li {
+    list-style: none;
+}
+
+/**********FOOTER************************************/
+
+footer {
+    z-index: 1;
+}
 
 /**********BREAKPOINT 910***************************/
 
