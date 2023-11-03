@@ -5,6 +5,7 @@ require("dotenv").config();
 const port = process.env.PORT;
 const Accueil = require("./rendering/pages/Accueil");
 const Portfolio = require("./rendering/pages/Portfolio");
+const Contact = require("./rendering/pages/Contact");
 
 // MIDDLEWARES
 server.use(express.static("./public"));
@@ -17,8 +18,12 @@ server.get("/", (req, res) => {
   res.send(Accueil());
 });
 server.get("/portfolio", (req, res) => {
-  console.log("server ~> requête vers la page portfolio");
+  console.log("server ~> requête vers la page 'portfolio'");
   res.send(Portfolio());
+});
+server.get("/contact", (req, res) => {
+  console.log("server ~> requête vers la page 'contact'");
+  res.send(Contact());
 });
 
 // LANCER LE SERVEUR

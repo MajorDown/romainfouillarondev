@@ -10,7 +10,7 @@ const NavSection = () => {
           </nav>
           <div id="callToContact">
             <p>Vous avez frappé à la bonne porte !</p>
-            <a class="linkBtn" href="#projectSection">Contactez-moi</a>
+            <a class="linkBtn" href="/contact">Contactez-moi</a>
             <p>Et discutons de vos projets</p>
           </div>         
       </section>

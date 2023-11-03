@@ -429,6 +429,41 @@ h2 {
     list-style: none;
 }
 
+/**********CONTACT***********************************/
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#followMe,
+#contactMe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#contactMe p {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#followMe img {
+    width: 64px;
+    height: 64px;
+}
+
+#contactMe img {
+    width: 32px;
+    height: 32px;
+}
+
 /**********FOOTER************************************/
 
 footer {
