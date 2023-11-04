@@ -16,6 +16,7 @@ const ContactForm = () => {
                     <p><img src="/images/icons/phone.svg" alt="téléphone" />07 69 14 06 28</p>
                     <p><img src="/images/icons/mail.svg" alt="mail" />romain.fouillaron[at]gmx.fr</p>
                 </div>
+                <div id="sendMail"></div>
             </div>
         </section>    
     `;

@@ -3,8 +3,11 @@ const Background = require("../components/background");
 const Header = require("../components/Header");
 const ContactForm = require("../components/ContactForm");
 const Footer = require("../components/Footer");
+const ReactApp = require("../components/ReactApp");
 
-const Portfolio = () => {
+const scripts = ["/scripts/SendMail.js"];
+
+const Contact = () => {
   return /*html*/ `
     <!DOCTYPE html>
     <html lang="fr">
@@ -17,10 +20,10 @@ const Portfolio = () => {
                 ${ContactForm()}
             </main>
             ${Footer()}
-            <script defer src="/scripts/hoverItem.js"></script>
             </body>
+            ${ReactApp(scripts)}
     </html>
     `;
 };
 
-module.exports = Portfolio;
+module.exports = Contact;
