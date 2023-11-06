@@ -10,6 +10,7 @@ const Contact = require("./rendering/pages/Contact");
 
 // MIDDLEWARES
 server.use(express.static("./public"));
+server.use(express.json());
 
 // CONTROLLER NODEMAILER
 const transporter = nodemailer.createTransport({
@@ -21,19 +22,27 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-server.post("/send-email", (req, res) => {
-  const { objet, message } = req.body;
-  const mail = {
-    from: "votre_adresse_email@gmx.com",
-    to: process.env.NODEMAILER_MAIL,
-    subject: objet,
-    text: message,
+server.post("/api/send-email", (req, res) => {
+  const { mail, name, message } = req.body;
+  const mailToSend = {
+    from: process.env.NODEMAILER_MAIL,
+    to: process.env.DESTINATION_MAIL,
+    subject: `romainfouillarondev ~> nouveau message de ${name}`,
+    html: `<p>nouveau message sur le site romainfouillarondev.fr</p>
+    <p>de la part de ${name}</p>
+    <p>adresse mail: ${mail}</p>
+    <p>"${message}"</p>`,
   };
-  transporter.sendMail(mail, (err, info) => {
+  transporter.sendMail(mailToSend, (err, info) => {
     if (err) {
       res.status(500).send(err);
+      console.log(`server ~> : error :`, err);
     } else {
       res.status(200).send(info);
+      console.log(
+        "server ~> un mail viens d'être envoyé à l'adresse ",
+        process.env.DESTINATION_MAIL
+      );
     }
   });
 });

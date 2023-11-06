@@ -3,9 +3,36 @@ const SendMail = () => {
   const [name, setName] = React.useState("");
   const [message, setMessage] = React.useState("");
   const [errMessage, setErrMessage] = React.useState("");
+  const [confirmation, setConfirmation] = React.useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    mail &&
+      name &&
+      message &&
+      fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ mail: mail, name: name, message: message }),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          if (data.error) {
+            setErrMessage("une erreur s'est produite dans l'envoi du mail");
+            console.log(data.error);
+          } else {
+            setErrMessage("");
+            setName("");
+            setMessage("");
+            setConfirmation("Votre message a été envoyé avec succès.");
+            setTimeout(() => setConfirmation(""), 5000);
+          }
+        })
+        .catch((error) => {
+          setErrMessage(error.message);
+        });
   };
 
   return (
@@ -19,6 +46,7 @@ const SendMail = () => {
           placeholder="votre mail"
           value={mail}
           onChange={(event) => setMail(event.target.value)}
+          required
         />
         <label htmlFor="senderName">Renseignez votre identité : </label>
         <input
@@ -27,6 +55,7 @@ const SendMail = () => {
           placeholder="Nom, prénom, fonction..."
           value={name}
           onChange={(event) => setName(event.target.value)}
+          required
         />
         <label htmlFor="senderMessage">Ecrivez votre message :</label>
         <textarea
@@ -35,9 +64,11 @@ const SendMail = () => {
           rows="20"
           value={message}
           onChange={(event) => setMessage(event.target.value)}
+          required
         ></textarea>
-        <p style={{ color: "red" }}></p>
+        <p style={{ color: "red" }}>{errMessage}</p>
         <button type="submit">Envoyer</button>
+        <p>{confirmation}</p>
       </form>
     </div>
   );
