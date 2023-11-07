@@ -20,7 +20,7 @@ const SendMail = () => {
         .then((response) => response.json())
         .then((data) => {
           if (data.error) {
-            setErrMessage("une erreur s'est produite dans l'envoi du mail");
+            setErrMessage("une erreur s'est produite lors de l'envoi du mail");
             console.log(data.error);
           } else {
             setErrMessage("");

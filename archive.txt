@@ -1,0 +1,8 @@
+2023.11.07-23:28:07 ~> ::1 : GET /
+2023.11.07-23:28:22 ~> ::1 : GET /contact
+2023.11.07-23:28:35 ~> ::1 : POST /api/send-email INVALID ARGUMENT
+2023.11.07-23:29:43 ~> ::1 : POST /api/send-email INVALID ARGUMENT
+2023.11.07-23:30:34 ~> ::1 : POST /api/send-email ~> 200
+2023.11.07-23:31:14 ~> ::1 : GET /
+2023.11.07-23:31:24 ~> ::1 : GET /portfolio
+2023.11.07-23:31:33 ~> ::1 : GET /

@@ -12,7 +12,7 @@ const Portfolio = () => {
         ${Head()}
         <body>
             ${Background()}
-            <a id="backToAccueil" href="/"><img src="/images/icons/return.png" alt="return">Retour à l'accueil</a>
+            <a id="backToAccueil" href="/"><img src="/images/icons/home.png" alt="return">Retour à l'accueil</a>
             ${Header()}
             <main>
                 ${MyTools()}
