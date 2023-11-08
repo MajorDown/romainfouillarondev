@@ -1,7 +1,14 @@
-require("dotenv").config();
 const nodemailer = require("nodemailer");
 
-// TRANSPORTER NODEMAILER
+/**
+ * Module de configuration du transporter Nodemailer.
+ * @typedef {import('nodemailer/lib/smtp-transport').Transporter} Transporter
+ */
+
+/**
+ * Crée et configure un transporteur Nodemailer pour envoyer des e-mails.
+ * @type {Transporter}
+ */
 const transporter = nodemailer.createTransport({
   host: "mail.gmx.com",
   port: 587,

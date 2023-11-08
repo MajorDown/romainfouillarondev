@@ -1,6 +1,10 @@
-require("dotenv").config();
 const transporter = require("./sendMail.transporter");
 
+/**
+ * Contrôleur qui envoie un e-mail en utilisant le transporteur Nodemailer configuré.
+ * @param {import('express').Request} req - Objet de requête Express.
+ * @param {import('express').Response} res - Objet de réponse Express.
+ */
 const controller = (req, res) => {
   const { mail, name, message } = req.body;
   const mailToSend = {
@@ -12,6 +16,7 @@ const controller = (req, res) => {
         <p>adresse mail: ${mail}</p>
         <p>"${message}"</p>`,
   };
+
   transporter.sendMail(mailToSend, (err, info) => {
     if (err) {
       res.status(500).send(err);

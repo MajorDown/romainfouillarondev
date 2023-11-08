@@ -1,3 +1,6 @@
+/**
+ * Composant React pour le formulaire d'envoi de courriel.
+ */
 const SendMail = () => {
   const [mail, setMail] = React.useState("");
   const [name, setName] = React.useState("");
@@ -5,6 +8,10 @@ const SendMail = () => {
   const [errMessage, setErrMessage] = React.useState("");
   const [confirmation, setConfirmation] = React.useState("");
 
+  /**
+   * Gère la soumission du formulaire.
+   * @param {Event} event - L'événement de soumission du formulaire.
+   */
   const handleSubmit = (event) => {
     event.preventDefault();
     mail &&

@@ -1,3 +1,6 @@
+/**
+ * Configuration des liens pour le défilement en douceur vers les ancres dans la page.
+ */
 function linkScrollConfig() {
   const links = document.querySelectorAll("a");
   links.forEach((link) => {

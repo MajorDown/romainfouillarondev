@@ -1,3 +1,9 @@
+/**
+ * Calcule le temps écoulé en mois à partir d'une chaîne de caractères au format MM/YYYY.
+ * @param {string} dateString - Chaîne de caractères au format MM/YYYY.
+ * @returns {string} - Une chaîne de caractères indiquant le temps écoulé en années et mois.
+ * @throws {Error} - Lance une erreur si le format du dateString est incorrect.
+ */
 function getPassedTime(dateString) {
   const regex = /^[0-9]{2}[/][0-9]{4}$/;
   if (!regex.test(dateString)) {
@@ -21,6 +27,10 @@ function getPassedTime(dateString) {
   return stringToReturn;
 }
 
+/**
+ * Crée un élément d'information au survol d'un élément et l'attache à la souris.
+ * @param {Event} event - L'événement de survol.
+ */
 function getHoverItem(event) {
   const item = document.createElement("div");
   item.classList.add("hoverItem");
@@ -43,6 +53,10 @@ function getHoverItem(event) {
   document.body.appendChild(item);
 }
 
+/**
+ * Ajoute des éléments réactifs au survol à tous les éléments avec la classe spécifiée.
+ * @param {string} className - La classe des éléments réactifs au survol.
+ */
 function setHoverElements(className) {
   document.querySelectorAll(`.${className}`).forEach((hoverableElement) => {
     hoverableElement.addEventListener("mouseover", (event) => {
@@ -59,4 +73,5 @@ function setHoverElements(className) {
   });
 }
 
+// Initialisation des éléments réactifs au survol avec la classe "technoIcon"
 setHoverElements("technoIcon");
