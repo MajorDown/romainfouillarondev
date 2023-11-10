@@ -4,6 +4,7 @@ const Header = require("../components/Header");
 const MyTools = require("../components/MyTools");
 const Footer = require("../components/Footer");
 const MyPortfolio = require("../components/MyPortfolio");
+const MyStory = require("../components/myStory");
 
 const Portfolio = () => {
   return /*html*/ `
@@ -17,6 +18,7 @@ const Portfolio = () => {
             <main>
                 ${MyTools()}
                 ${MyPortfolio()}
+                ${MyStory()}
             </main>
             ${Footer()}
             <script defer src="/scripts/hoverItem.js"></script>

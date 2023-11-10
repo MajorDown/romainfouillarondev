@@ -35,8 +35,6 @@ function getHoverItem(event) {
   const item = document.createElement("div");
   item.classList.add("hoverItem");
   item.style.position = "absolute";
-  item.style.top = event.clientY - 30;
-  item.style.left = event.clientX + 20;
   item.style.backgroundColor = "white";
   item.style.border = "solid 2px black";
   item.style.borderRadius = "20px";
@@ -47,8 +45,8 @@ function getHoverItem(event) {
       event.target.attributes.hoverData.nodeValue
     )}`;
   event.target.addEventListener("mousemove", (event) => {
-    item.style.top = event.clientY - 30 + "px";
-    item.style.left = event.clientX + 20 + "px";
+    item.style.top = event.clientY - 30 + window.scrollY + "px";
+    item.style.left = event.clientX + 20 + window.scrollX + "px";
   });
   document.body.appendChild(item);
 }
@@ -73,5 +71,6 @@ function setHoverElements(className) {
   });
 }
 
-// Initialisation des éléments réactifs au survol avec la classe "technoIcon"
+// Initialisation des éléments réactifs au survol avec les classes "technoIcon" et "passion"
 setHoverElements("technoIcon");
+setHoverElements("passion");

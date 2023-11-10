@@ -102,6 +102,11 @@ section {
 
 /**********NAV*************************/
 
+#navSection {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 #navSection nav {
     width: 100%;
     margin: 0 auto;
@@ -115,7 +120,7 @@ section {
     border-bottom: 2px solid var(--colorFont);
     padding: 3px;
     width: 48%;
-    min-width: 460px;
+    min-width: 1000px;
 }
 
 .comeToLeft {
@@ -427,6 +432,19 @@ h2 {
 
 .projectLinks li {
     list-style: none;
+}
+
+#myPassions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#myPassions svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--colorFont);
 }
 
 /**********CONTACT***********************************/
