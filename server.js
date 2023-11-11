@@ -34,6 +34,17 @@ server.post("/api/send-email", (req, res) => {
   controller(req, res);
   archive.log(req.ip, ":", req.method, req.path, "~>", res.statusCode);
 });
+server.get("/api/clear/:param", (req, res) => {
+  const param = parseInt(req.params.param, 10);
+  const result = archive.clear(param);
+  console.log(result);
+  res.send(result);
+});
+server.get("/api/clear", (req, res) => {
+  const result = archive.clear();
+  console.log(result);
+  res.send(result);
+});
 
 // LANCER LE SERVEUR
 server.listen(port, () =>

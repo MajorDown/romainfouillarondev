@@ -9,7 +9,7 @@ const DevSection = () => {
                 <img class="sectionIcon" src="/images/icons/dev.png" alt="dev">
                 <div class="content r1">
                     <p>Les besoins numériques des entreprises sont de plus en plus précis et complexes.</p>
-                    <p> Aujourd'hui, il est difficile de trouver un commerçant, un artisan 
+                    <p>Aujourd'hui, il est difficile de trouver un commerçant, un artisan 
                     ou un producteur qui n'utilise aucun logiciel de facturation, de planification, ou encore de gestion de traçabilité.</p>
                     <p>La raison est simple : l'utilité de tels outils n'est plus a démontrer. SI (et seulement SI...) ces outils sont conçu pour.</p>
                 </div>

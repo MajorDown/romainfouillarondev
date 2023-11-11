@@ -38,7 +38,6 @@ function getHoverItem(event) {
   item.style.backgroundColor = "white";
   item.style.border = "solid 2px black";
   item.style.borderRadius = "20px";
-  item.style.transition = "0.3s";
   item.innerHTML += `${event.target.attributes.alt.nodeValue}`;
   if (event.target.attributes.hoverData)
     item.innerHTML += ` : ${getPassedTime(

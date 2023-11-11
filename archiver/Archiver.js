@@ -78,6 +78,42 @@ class Archiver {
       console.log(">", fileLines[i]);
     }
   }
+
+  /**
+   * Efface le contenu du fichier d'archive ou un nombre spécifié de lignes depuis le début du fichier.
+   * @param {number} [numberOfLines] - Le nombre de lignes à effacer depuis le début du fichier. Si non spécifié, efface tout le contenu du fichier.
+   * @throws {Error} Lance une erreur si numberOfLines n'est pas un nombre.
+   * @throws {Error} Lance une erreur si numberOfLines n'est pas supérieur ou égal à 0.
+   */
+  clear(numberOfLines) {
+    if (numberOfLines === undefined) {
+      fs.writeFileSync(this.path, "");
+      console.log(
+        `Archiver.clear ~> contenu de l'archive "${this.path}" effacé.`
+      );
+      return `contenu de l'archive "${this.path}" effacé.`;
+    } else {
+      if (
+        typeof numberOfLines !== "number" ||
+        isNaN(numberOfLines) ||
+        numberOfLines < 0
+      ) {
+        console.log(
+          `Archiver.clear ~> tentative de suppression dans "${this.path}" echoué`
+        );
+        return `tentative de suppression dans "${this.path}" echoué`;
+      }
+      const fileContent = fs.readFileSync(this.path, "utf8");
+      const fileLines = fileContent.split("\n");
+      const linesToKeep = fileLines.slice(numberOfLines);
+      const updatedContent = linesToKeep.join("\n");
+      fs.writeFileSync(this.path, updatedContent);
+      console.log(
+        `Archiver.clear ~> ${numberOfLines} ligne(s) de l'archive "${this.path}" ont été effacées.`
+      );
+      return `${numberOfLines} ligne(s) de l'archive "${this.path}" ont été effacées.`;
+    }
+  }
 }
 
 module.exports = Archiver;

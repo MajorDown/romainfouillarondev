@@ -378,7 +378,7 @@ h2 {
 
 .hoverItem {
     z-index: 21;
-    animation: technoInfo 0.5s;
+    animation: technoInfo 0.2s;
     justify-content: center;
     align-items: center;
     overflow: hidden;

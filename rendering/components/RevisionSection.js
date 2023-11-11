@@ -16,7 +16,7 @@ const RevisionSection = () => {
             <div class="sectionContent">
                 <div class="content r2">
                     <h3>Le Design</h3>
-                    <p>Au delà de la logique graphique du site, son identité visuelle doit être facilement reconnaissable, mais surtout ethétiquement agréable. minimaliste ou sophistiqué, coloré ou sobre...</p>
+                    <p>Au delà de la logique graphique du site, son identité visuelle doit être facilement reconnaissable, mais surtout esthétiquement agréable. minimaliste ou sophistiqué, colorée ou sobre...</p>
                 </div>
                 <div class="content r1">
                     <h3>La charte graphique</h3>
