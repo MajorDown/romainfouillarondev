@@ -70,6 +70,22 @@ function setHoverElements(className) {
   });
 }
 
+/**
+ * Fais clignoter l'élément spécifié en ID.
+ * @param {string} ID de l'élément clignotant.
+ * @param {number} temps de clignotant en milliseconde.
+ */
+function blink(id, time) {
+  console.log("blink");
+  const titleUnderscore = document.getElementById(id);
+  setInterval(() => {
+    titleUnderscore.classList.toggle("blink");
+    console.log("toggle !");
+  }, time);
+}
+
+blink("titleUnderscore", 700);
+
 // Initialisation des éléments réactifs au survol avec les classes "technoIcon" et "passion"
 setHoverElements("technoIcon");
 setHoverElements("passion");

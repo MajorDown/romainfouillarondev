@@ -1,6 +1,6 @@
 body {
     animation-name: OpeningSite;
-    animation-duration: 2.5s;
+    animation-duration: 3s;
     animation-timing-function: linear;
     background-color: var(--colorBack);
 }
@@ -35,4 +35,32 @@ body {
     right: 10vw;
     width: 30vw;
     z-index: 0;
+}
+
+::-webkit-scrollbar {
+    width: 1.6vw;
+    max-width: 16px;
+    animation-name: OpeningSite;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    background-color: var(--colorBack);
+}
+
+::-moz-scrollbar {
+    width: 1.6vw;
+    max-width: 16px;
+    animation-name: OpeningSite;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    background-color: var(--colorBack);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--colorFont);
+    border-radius: 0.8vw;
+}
+
+::-moz-scrollbar-thumb {
+    background-color: var(--colorFont);
+    border-radius: 0.8vw;
 }

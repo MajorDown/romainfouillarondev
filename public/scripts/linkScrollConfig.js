@@ -21,3 +21,19 @@ function linkScrollConfig() {
 }
 
 linkScrollConfig();
+
+/**
+ * Fais clignoter l'élément spécifié en ID.
+ * @param {string} ID de l'élément clignotant.
+ * @param {number} temps de clignotant en milliseconde.
+ */
+function blink(id, time) {
+  console.log("blink");
+  const titleUnderscore = document.getElementById(id);
+  setInterval(() => {
+    titleUnderscore.classList.toggle("blink");
+    console.log("toggle !");
+  }, time);
+}
+
+blink("titleUnderscore", 700);

@@ -26,13 +26,19 @@ header {
     align-items: center;
 }
 
-h1 {
+h1,
+h1 span {
     font-family: var(--fontTitle);
     padding-top: 100px;
     padding-bottom: 20px;
     z-index: 1;
     font-size: var(--sizeTitle);
     letter-spacing: 5px;
+    opacity: 1
+}
+
+.blink {
+    opacity: 0;
 }
 
 header img {
@@ -206,6 +212,7 @@ a {
     gap: 35px;
     margin: 0 auto;
     padding: 40px;
+    animation: ComeToBottom 2s
 }
 
 #helloSection h2 {
@@ -227,6 +234,7 @@ a {
     height: 20vw;
     max-height: 220px;
     shape-outside: content-box;
+    animation: FinallyCome 3s;
 }
 
 #description {
@@ -528,6 +536,16 @@ h2 {
 
 footer {
     z-index: 1;
+}
+
+/**********BREAKPOINT 1024**************************/
+
+@media only screen and (max-width: 1024px) {
+
+    #navSection nav div {
+        width: 48%;
+        min-width: 600px;
+    }
 }
 
 /**********BREAKPOINT 910***************************/
