@@ -39,9 +39,9 @@ function getHoverItem(event) {
   item.style.border = "solid 2px black";
   item.style.borderRadius = "20px";
   item.innerHTML += `${event.target.attributes.alt.nodeValue}`;
-  if (event.target.attributes.hoverData)
+  if (event.target.attributes.hoverdata)
     item.innerHTML += ` : ${getPassedTime(
-      event.target.attributes.hoverData.nodeValue
+      event.target.attributes.hoverdata.nodeValue
     )}`;
   event.target.addEventListener("mousemove", (event) => {
     item.style.top = event.clientY - 30 + window.scrollY + "px";
@@ -76,11 +76,9 @@ function setHoverElements(className) {
  * @param {number} temps de clignotant en milliseconde.
  */
 function blink(id, time) {
-  console.log("blink");
   const titleUnderscore = document.getElementById(id);
   setInterval(() => {
     titleUnderscore.classList.toggle("blink");
-    console.log("toggle !");
   }, time);
 }
 

@@ -20,7 +20,6 @@ const MyStory = () => {
                     <img class="passion" src="/images/icons/passions/history.png" alt="Histoire, archéologie"/>
                     <img class="passion" src="/images/icons/passions/music.png" alt="Musique, sonorisation"/>
                     <img class="passion" src="/images/icons/passions/bushcraft.png" alt="Randonnée, buschraft"/>
-
                 </div>
             </article>
         </section>    

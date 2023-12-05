@@ -5,7 +5,7 @@ const ContactForm = require("../components/ContactForm");
 const Footer = require("../components/Footer");
 const ReactApp = require("../components/ReactApp");
 
-const scripts = ["/scripts/SendMail.js"];
+const scripts = ["/scripts/react_components/SendMail.js"];
 
 const Contact = () => {
   return /*html*/ `

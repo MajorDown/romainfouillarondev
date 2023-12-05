@@ -1,0 +1,158 @@
+/**
+ * Composant React pour séléctionner la section à afficher.
+ */
+const MyTools = () => {
+  const [section, setSection] = React.useState("myTools");
+
+  return (
+    <section id="myTools" className="mySection">
+      <h2>Mes Outils</h2>
+      <article className="r1">
+        <h3>Mes technos' de prédilection</h3>
+        <div id="myTechnos">
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/html.png"
+            alt="HTML"
+            hoverData="01/2013"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/css.png"
+            alt="CSS"
+            hoverData="01/2013"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/javascript.png"
+            alt="Javascript"
+            hoverData="09/2021"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/typescript.png"
+            alt="Typescript"
+            hoverData="05/2023"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/react.png"
+            alt="React"
+            hoverData="02/2023"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/next.js.png"
+            alt="Next.js"
+            hoverData="06/2023"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/react-native.png"
+            alt="React-native"
+            hoverData="08/2023"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/node.js.png"
+            alt="Node.js"
+            hoverData="07/2022"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/express.png"
+            alt="Express"
+            hoverData="12/2022"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/mongodb.png"
+            alt="MongoDB"
+            hoverData="12/2022"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/php.png"
+            alt="PHP"
+            hoverData="10/2013"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/sql.png"
+            alt="SQL"
+            hoverData="06/2023"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/wordpress.png"
+            alt="Wordpress"
+            hoverData="06/2013"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/woocommerce.png"
+            alt="WooCommerce"
+            hoverData="01/2023"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/shopify.png"
+            alt="Shopify"
+            hoverData="01/2023"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/technos/prestashop.png"
+            alt="prestashop"
+            hoverData="03/2023"
+          />
+        </div>
+      </article>
+      <article className="r2">
+        <h3>Mon attirail de Travail</h3>
+        <div id="myMachine">
+          <img
+            className="technoIcon"
+            src="/images/icons/tools/windows.png"
+            alt="Windows"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/tools/ubuntu.png"
+            alt="Ubuntu"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/tools/vscode.png"
+            alt="VSCode"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/tools/trello.png"
+            alt="Trello"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/tools/git.png"
+            alt="Git"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/tools/lighthouse.png"
+            alt="LightHouse"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/tools/postman.png"
+            alt="Postman"
+          />
+          <img
+            className="technoIcon"
+            src="/images/icons/tools/figma.png"
+            alt="Figma"
+          />
+        </div>
+      </article>
+    </section>
+  );
+};

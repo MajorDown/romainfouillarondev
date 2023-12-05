@@ -3,7 +3,7 @@ const ContactForm = () => {
         <section id="contact">
             <h2>Contactez-moi !</h2>
             <div id="followMe">
-                <p>Me suivre sur la toile :</p>
+                <p>Suivre mon actualité sur la toile :</p>
                 <div>
                     <a href="https://github.com/MajorDown"><img src="/images/icons/github.svg" alt="github" /></a>
                     <a href="https://www.linkedin.com/in/romain-fouillaron-b36673260/" target="_blank"><img src="/images/icons/linkedIn.svg" alt="LinkedIn" /></a>
