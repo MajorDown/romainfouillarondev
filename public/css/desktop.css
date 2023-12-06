@@ -145,27 +145,27 @@ section {
 
 .come1st {
     top: 0px;
-    animation: ComeToLeft 1s;
+    animation: ComeToLeft 0.3s;
 }
 
 .come2nd {
     top: 40px;
-    animation: ComeToRight 1.3s;
+    animation: ComeToRight 0.6s;
 }
 
 .come3rd {
     top: 80px;
-    animation: ComeToLeft 1.6s;
+    animation: ComeToLeft 0.9s;
 }
 
 .come4th {
     top: 120px;
-    animation: ComeToRight 1.9s;
+    animation: ComeToRight 1.2s;
 }
 
 .come5th {
     top: 160px;
-    animation: ComeToLeft 2.2s;
+    animation: ComeToLeft 1.5s;
 }
 
 #callToContact {
@@ -212,7 +212,7 @@ a {
     gap: 35px;
     margin: 0 auto;
     padding: 40px;
-    animation: ComeToBottom 2s
+    animation: ComeToBottom 2.1s
 }
 
 #helloSection h2 {
@@ -326,6 +326,25 @@ h2 {
 
 /**********PORTFOLIO********************************/
 
+#sectionSelectorTab {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#sectionSelectorTab button {
+    padding: 10px 30px;
+    width: 10%;
+    background-color: var(--colorShadow);
+    color: var(--colorFont);
+    cursor: pointer;
+}
+
+#sectionSelectorTab button.actived {
+    background-color: var(--colorBack);
+    color: var(--colorFont2)
+}
+
 .mySection {
     margin: 0px auto;
     width: 1200px;
@@ -401,12 +420,19 @@ h2 {
     text-align: center;
 }
 
+.up {
+    transform: rotate(-1deg);
+}
+
+.down {
+    transform: rotate(1deg);
+}
+
 .laptopViewer {
     position: relative;
     display: flex;
     width: 700px;
     z-index: 20;
-    transform: rotate(-1deg);
 }
 
 .laptopViewerContent {
@@ -417,18 +443,32 @@ h2 {
     transform: translateX(-50%);
 }
 
-.mobileViewer {
+.mobileViewerY {
     z-index: 20;
     display: flex;
     width: 300px;
     position: relative;
-    transform: rotate(1deg);
 }
 
-.mobileViewerContent {
+.mobileViewerYContent {
     z-index: 19;
     position: absolute;
     top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mobileViewerX {
+    z-index: 20;
+    display: flex;
+    width: 569px;
+    position: relative;
+}
+
+.mobileViewerXContent {
+    z-index: 19;
+    position: absolute;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
 }

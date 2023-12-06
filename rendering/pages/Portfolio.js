@@ -5,7 +5,12 @@ const Footer = require("../components/Footer");
 const ReactApp = require("../components/ReactApp");
 
 const scripts = [
+  "/scripts/data/siteData.js",
+  "/scripts/react_components/MobileViewer.js",
+  "/scripts/react_components/LaptopViewer.js",
+  "/scripts/react_components/MyStory.js",
   "/scripts/react_components/MyTools.js",
+  "/scripts/react_components/MyPortfolio.js",
   "/scripts/react_components/SectionSelector.js",
 ];
 
@@ -22,9 +27,8 @@ const Portfolio = () => {
                 <div id="sectionSelector"></div>
             </main>
                 ${Footer()}
-                ${ReactApp(scripts)}
-            <script defer src="/scripts/hoverItem.js"></script>
-            </body>
+        </body>
+        ${ReactApp(scripts)}
     </html>
     `;
 };
