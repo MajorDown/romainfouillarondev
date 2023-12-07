@@ -334,7 +334,7 @@ h2 {
 
 #sectionSelectorTab button {
     padding: 10px 30px;
-    width: 10%;
+    width: 200px;
     background-color: var(--colorShadow);
     color: var(--colorFont);
     cursor: pointer;

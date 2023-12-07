@@ -2,6 +2,15 @@ body {
     font-size: var(--sizeMobileText);
 }
 
+.projectLinks {
+    gap: 0;
+    justify-content: space-between;
+}
+
+.linkbtn {
+    padding: 5px;
+}
+
 h1,
 h2 {
     padding-top: 30px;
@@ -111,6 +120,15 @@ p {
     height: 32px;
 }
 
+#sectionSelectorTab button {
+    padding: 10px 30px;
+    width: 25%;
+    font-size: var(--sizeMobileText);
+    background-color: var(--colorShadow);
+    color: var(--colorFont);
+    cursor: pointer;
+}
+
 .laptopViewerContainer {
     width: 300px;
     height: 158px;
@@ -122,13 +140,24 @@ p {
     height: 128.5px;
 }
 
-.mobileViewerContainer {
+.mobileViewerYContainer {
     width: 150px;
     height: 284.5px;
 }
 
-.mobileViewerContent {
+.mobileViewerYContent {
     top: 25px;
     width: 140px;
     height: 235px;
+}
+
+.mobileViewerXContainer {
+    width: 284.5px;
+    height: 150px;
+}
+
+.mobileViewerXContent {
+    top: 5px;
+    width: 235px;
+    height: 140px;
 }

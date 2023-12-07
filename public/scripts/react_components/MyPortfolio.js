@@ -9,6 +9,7 @@ const MyPortfolio = () => {
         <article key={index} className="r1">
           <h3>{project.name}</h3>
           <p className="projectDescription">{project.description}</p>
+          <p>Technos utilisées : {project.used}</p>
           <div className="projectScreenshot">
             {project.pictures.image1.view === "laptop" && (
               <LaptopViewer screen={project.pictures.image1.src} angle="up" />

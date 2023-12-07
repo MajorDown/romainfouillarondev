@@ -124,39 +124,21 @@ const projectsList = [
     },
   },
   {
-    name: "Les Pierres Folles",
+    name: "Buzr",
     description:
-      "Une application de référencement des dolmen, menhirs et autre mégalithes de France. Elle offre une API complète pour consulter et contribuer à la base de donnée.",
-    used: "React, Node.js, Express, MongoDB",
-    url: "https://lespierresfolles.com",
-    repo: "https://github.com/MajorDown/lespierresfolles",
+      "Une application mobile pour gérer le déclenchement de jusqu'a 15 samples audio",
+    used: "Typescript, Expo, React, React-native",
+    url: "",
+    repo: "https://github.com/MajorDown/Buzr",
     pictures: {
       image1: {
         view: "mobileX",
-        src: "/images/portfolio/les_pierres_folles_laptop.jpg",
+        src: "/images/portfolio/buzr_mobile1.jpg",
       },
       image2: {
         view: "mobileX",
-        src: "/images/portfolio/les_pierres_folles_laptop.jpg",
+        src: "/images/portfolio/buzr_mobile2.jpg",
       },
     },
   },
-  // {
-  //   name: "Buzr",
-  //   description:
-  //     "Une application mobile pour gérer le déclenchement de jusqu'a 15 samples audio",
-  //   used: "Expo, React-native",
-  //   url: "",
-  //   repo: "https://github.com/MajorDown/Buzr",
-  //   pictures: {
-  //     image1: {
-  //       view: "laptop",
-  //       src: "/images/portfolio/les_pierres_folles_laptop.jpg",
-  //     },
-  //     image2: {
-  //       view: "mobileY",
-  //       src: "/images/portfolio/les_pierres_folles_mobile.jpg",
-  //     },
-  //   },
-  // },
 ];
