@@ -1,3 +1,7 @@
+/**
+ * Composant React pour encadrer un screenshot avec un visuel de smartphone
+ */
+
 const MobileViewer = ({ screen, orientation, angle }) => {
   if (orientation && orientation === "portrait") {
     return (

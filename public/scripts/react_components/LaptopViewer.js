@@ -1,3 +1,7 @@
+/**
+ * Composant React pour encadrer un screenshot avec un visuel de laptop
+ */
+
 const LaptopViewer = ({ screen, angle }) => {
   return (
     <div className={`laptopViewer ${angle}`}>

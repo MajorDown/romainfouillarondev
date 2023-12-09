@@ -1,10 +1,14 @@
+/**
+ * Composant React pour afficher mon histoire
+ */
+
 const MyStory = () => {
   return (
     <section id="myStory" className="mySection">
       <h2>...Mais qui suis-je...?</h2>
       <article className="r2">
         <p>
-          J'ai fais mes classNamees dans les métiers de l'alimentation, plus
+          J'ai fais mes classes dans les métiers de l'alimentation, plus
           particulièrement les produits de la mer, un domaine dans lequel j'ai
           acquis une certaine expertise au travers des années, jusqu'a des
           postes de management.
