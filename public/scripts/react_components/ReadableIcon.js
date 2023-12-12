@@ -1,3 +1,7 @@
+/**
+ * Composant React pour afficher l'icone et son information au survol de la souris.
+ */
+
 const ReadableIcon = ({ src, alt, width, height }) => {
   const [isHover, setIsHover] = React.useState[false];
   return (
@@ -21,6 +25,7 @@ const ReadableIcon = ({ src, alt, width, height }) => {
             left: "-5px",
             borderRadius: "10px",
             border: "2px white solid",
+            padding: "5px",
           }}
         >
           {alt}
