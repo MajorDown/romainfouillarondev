@@ -32,7 +32,7 @@ const SeoSection = () => {
                     <p>Faire un audit, c'est une bonne chose, reste à savoir qui va se charger des modifications.</p>
                     <p>Si vous ne vous sentez pas d'effectuer vous même les corrections nécessaires, vous avez la possibilité de me mandater afin de m'occuper de la besogne.</p>
                     <p>Résultats garantis quelques mois plus tard ! </p>
-                    <p>/!\ à noter si toutefois vous préférez vous en occuper : la mise à jour progressive d'un site web doit durer le moins possible dans le temps. 
+                    <p>/!\\ à noter si toutefois vous préférez vous en occuper : la mise à jour progressive d'un site web doit durer le moins possible dans le temps. 
                     Google n'aime pas les sites qui changent toutes les semaines leurs infos clés.</p>
                 </div>
             </div>

@@ -9,11 +9,13 @@ const MyTools = () => {
         <h3>Mes technos' de prédilection</h3>
         <div id="myTechnos">
           {technosList.map((techno, index) => (
-            <img
+            <ReadableIcon
               key={index}
               className="technoIcon"
               src={techno.src}
               alt={techno.name}
+              width={64}
+              height={64}
             />
           ))}
         </div>
@@ -22,11 +24,13 @@ const MyTools = () => {
         <h3>Mon attirail de Travail</h3>
         <div id="myMachine">
           {toolsList.map((tool, index) => (
-            <img
+            <ReadableIcon
               key={index}
               className="technoIcon"
               src={tool.src}
               alt={tool.name}
+              width={64}
+              height={64}
             />
           ))}
         </div>

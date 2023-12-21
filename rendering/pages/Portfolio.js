@@ -12,6 +12,7 @@ const scripts = [
   "/scripts/react_components/MyTools.js",
   "/scripts/react_components/MyPortfolio.js",
   "/scripts/react_components/SectionSelector.js",
+  "/scripts/react_components/ReadableIcon.js",
 ];
 
 const Portfolio = () => {

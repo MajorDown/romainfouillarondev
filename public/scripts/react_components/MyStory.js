@@ -29,34 +29,44 @@ const MyStory = () => {
           Enfin, je me concidère comme quelqu'un de fasciné par la nature,
           l'histoire et la sociologie. Et par conséquent, la question écologique
           impact également mes décisions au sein de mon activité : choix des
-          technologies, des framework, des hébergements, du type de
+          technologies, des frameworks, des hébergements, du type de
           prestations...
         </p>
         <div id="myPassions">
-          <img
+          <ReadableIcon
             className="passion"
             src="/images/icons/passions/Cook.png"
             alt="Cuisine, expériences culinaires"
+            width={64}
+            height={64}
           />
-          <img
+          <ReadableIcon
             className="passion"
             src="/images/icons/passions/nature.png"
             alt="Nature, écologie, Permaculture"
+            width={64}
+            height={64}
           />
-          <img
+          <ReadableIcon
             className="passion"
             src="/images/icons/passions/history.png"
             alt="Histoire, archéologie"
+            width={64}
+            height={64}
           />
-          <img
+          <ReadableIcon
             className="passion"
             src="/images/icons/passions/music.png"
             alt="Musique, sonorisation"
+            width={64}
+            height={64}
           />
-          <img
+          <ReadableIcon
             className="passion"
             src="/images/icons/passions/bushcraft.png"
             alt="Randonnée, buschraft"
+            width={64}
+            height={64}
           />
         </div>
       </article>

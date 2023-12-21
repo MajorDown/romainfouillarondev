@@ -12,6 +12,10 @@ const technosList = [
     src: "/images/icons/technos/javascript.png",
   },
   {
+    name: "Typescript",
+    src: "/images/icons/technos/typescript.png",
+  },
+  {
     name: "React",
     src: "/images/icons/technos/react.png",
   },
