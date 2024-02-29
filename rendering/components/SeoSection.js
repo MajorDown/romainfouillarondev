@@ -7,7 +7,7 @@ const SeoSection = () => {
             </div>
             <div class="sectionContent">
                 <div class="content r1">
-                    <p>"Le SEO (Search Engine Optimization) est l'art de faire en sorte que votre site web soit bien placé dans les résultats de recherches" ...dixit Google Bard.</p>
+                    <p>"Le SEO (Search Engine Optimization) est l'art de faire en sorte que votre site web soit bien placé dans les résultats de recherches" ...dixit ChatGPT (merci à lui pour cette contribution).</p>
                     <p>Cette définition me semble correcte. Mais elle résume bien trop la complexité de ce concept pour que l'on puisse se rendre compte des paramètres
                     sur lesquels celà implique de travailler :</p>
                     <p>Pertinence du contenu. meta-data. Performance. Bonnes pratiques de codes. Mots-clés. Accessibilité...</p>
