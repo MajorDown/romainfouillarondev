@@ -110,6 +110,24 @@ const toolsList = [
 
 const projectsList = [
   {
+    name: "Agriguilder",
+    description:
+      "Une application de coordination et de gestion du matériel pour les collectifs agricoles (Associations, Cuma...)",
+    used: "Next.js, React, MongoDB",
+    url: "https://agriguilder.com/",
+    repo: "https://github.com/MajorDown/Guilder",
+    pictures: {
+      image1: {
+        view: "laptop",
+        src: "/images/portfolio/agriguilder_laptop1.jpg",
+      },
+      image2: {
+        view: "laptop",
+        src: "/images/portfolio/agriguilder_laptop2.jpg",
+      },
+    },
+  },
+  {
     name: "Les Pierres Folles",
     description:
       "Une application de référencement des dolmen, menhirs et autre mégalithes de France. Elle offre une API complète pour consulter et contribuer à la base de donnée.",

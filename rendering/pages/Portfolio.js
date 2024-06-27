@@ -27,7 +27,7 @@ const Portfolio = () => {
             <main>
                 <div id="sectionSelector"></div>
             </main>
-                ${Footer()}
+            ${Footer()}
         </body>
         ${ReactApp(scripts)}
     </html>
