@@ -128,6 +128,24 @@ const projectsList = [
     },
   },
   {
+    name: "CR-Commande",
+    description:
+      "Outil interne de gestion des commandes, à destination des ateliers Cash And Repair (en phase de test)",
+    used: "React",
+    url: "https://51.77.159.211:15001",
+    repo: "https://github.com/MajorDown/cr-commande",
+    pictures: {
+      image1: {
+        view: "laptop",
+        src: "/images/portfolio/cr_commande_laptop1.jpg",
+      },
+      image2: {
+        view: "laptop",
+        src: "/images/portfolio/cr_commande_laptop2.jpg",
+      },
+    },
+  },
+  {
     name: "Les Pierres Folles",
     description:
       "Une application de référencement des dolmen, menhirs et autre mégalithes de France. Elle offre une API complète pour consulter et contribuer à la base de donnée.",
