@@ -6,7 +6,7 @@ const ContactForm = () => {
                 <p>Suivre mon actualité sur la toile :</p>
                 <div>
                     <a href="https://github.com/MajorDown"><img src="/images/icons/github.svg" alt="github" /></a>
-                    <a href="https://www.linkedin.com/in/romain-fouillaron-b36673260/" target="_blank"><img src="/images/icons/linkedIn.svg" alt="LinkedIn" /></a>
+                    <a href="https://www.linkedin.com/in/romain-fouillaron-b36673260/" target="_blank"><img src="/images/icons/linkedin.svg" alt="LinkedIn" /></a>
                     <a href="https://www.facebook.com/romain.fouillaron/" target="_blank"><img src="/images/icons/facebook.svg" alt="facebook" /></a>
                 </div>
             </div>

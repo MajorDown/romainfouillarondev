@@ -1,5 +1,5 @@
 const Head = require("../components/Head");
-const Background = require("../components/background");
+const Background = require("../components/Background");
 const Header = require("../components/Header");
 const ContactForm = require("../components/ContactForm");
 const Footer = require("../components/Footer");

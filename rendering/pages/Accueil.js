@@ -1,5 +1,5 @@
 const Head = require("../components/Head");
-const Background = require("../components/background");
+const Background = require("../components/Background");
 const Header = require("../components/Header");
 const NavSection = require("../components/NavSection");
 const HelloSection = require("../components/HelloSection");
@@ -29,7 +29,7 @@ const Accueil = () => {
                 ${HostSection()}
             </main>
             ${Footer()}
-            <script defer src="/scripts/linkScrollConfig.js"></script>
+            ${FrontScripts()}
         </body>
     </html>
     `;

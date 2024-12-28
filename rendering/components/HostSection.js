@@ -10,7 +10,7 @@ const HostSection = () => {
                 <div class="content r1">
                     <p>Il est parfois difficile de s'y retrouver parmis toutes les enseignes et toutes les offres d'hébergement proposés.</p>
                     <p>Hebergement partagés ou dédié, cloud ou VPS sont autant de termes qui peuvent porter à confusion et vous pousser à l'erreur.</p>
-                    <p>Ensemble, nous étudierons quelle est la meilleur solution d'hébergement pour votre projet.</p>
+                    <p>Ensemble, nous étudierons quelle est la meilleure solution d'hébergement pour votre projet.</p>
                 </div>
             </div>
             <p class="whatICanDo">Ce que je peut gérer pour vous :</p>

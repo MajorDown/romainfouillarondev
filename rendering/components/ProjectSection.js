@@ -34,7 +34,7 @@ const ProjectSection = () => {
             </div>        
             <div class="content r2">
                 <h3>Un réseau social</h3>
-                <p>Les projets de sites communautaires sont devenus une solution idéale pour la communication au sein d'entreprises ayant un grand nombre de salariés</p>
+                <p>Les projets de sites communautaires sont devenus des solutions idéales pour la communication au sein d'entreprises ayant un grand nombre de salariés</p>
             </div>      
         </div>
         <div class="sectionContent">

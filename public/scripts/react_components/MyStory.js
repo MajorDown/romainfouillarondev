@@ -35,7 +35,7 @@ const MyStory = () => {
         <div id="myPassions">
           <ReadableIcon
             className="passion"
-            src="/images/icons/passions/Cook.png"
+            src="/images/icons/passions/cook.png"
             alt="Cuisine, expériences culinaires"
             width={64}
             height={64}
