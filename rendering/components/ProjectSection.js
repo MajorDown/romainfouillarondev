@@ -9,7 +9,7 @@ const ProjectSection = () => {
             <img class="sectionIcon" src="/images/icons/project.png" alt="project">
             <div class="content r1">
                 <p>Dans le monde d'aujourd'hui, diriger une entreprise sans présence significative sur le web, c'est comme parler dans un micro débranché devant une salle de 500 personnes : les chances d'être entendu sont beaucoup plus minces.</p>
-                <p>Chaque projet est unique. C'est la raison pour laquelle il m'est apparu nécessaire de maitriser tout les types possibles de service web.</p>
+                <p>Chaque projet est unique. C'est la raison pour laquelle il m'est apparu nécessaire de maîtriser tous les types possibles de service web.</p>
             </div>
         </div>
         <p class="whatICanDo">Ce que je peut réaliser pour vous :</p>
@@ -30,7 +30,7 @@ const ProjectSection = () => {
         <div class="sectionContent">
             <div class="content r1">
                 <h3>Une API</h3>
-                <p>Une API, ou "interface de programmation d'application", est un service qui fais parfois des miracles : base de donnée, authentification, automatisation des mails... tout deviens possible !</p> 
+                <p>Une API, ou "interface de programmation d'application", est un service qui fait parfois des miracles : base de données, authentification, automatisation des mails... tout devient possible !</p> 
             </div>        
             <div class="content r2">
                 <h3>Un réseau social</h3>
@@ -42,7 +42,7 @@ const ProjectSection = () => {
                 <h3>...Et l'hébergement ? Et la maintenance ?</h3>
                 <p>Avoir un site web, c'est bien. Et pouvoir être assuré de son bon fonctionnement... c'est pas mal, aussi.</p>
                 <p>C'est pourquoi je propose également de m'occuper de la gestion et de la maintenance de votre site.</p>
-                <p>Hébergement partagé, dédié ou VPS, sous Linux ou Windows Server, si cette partie vous fais peur... Pas de problême ! je prend le relais.</p> 
+                <p>Hébergement partagé, dédié ou VPS, sous Linux ou Windows Server, si cette partie vous fait peur... Pas de problème ! je prends le relais.</p> 
             </div>            
         </div>
     </section>

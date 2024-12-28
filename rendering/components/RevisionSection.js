@@ -16,21 +16,21 @@ const RevisionSection = () => {
             <div class="sectionContent">
                 <div class="content r2">
                     <h3>Le Design</h3>
-                    <p>Au delà de la logique graphique du site, son identité visuelle doit être facilement reconnaissable, mais surtout esthétiquement agréable. Minimaliste ou sophistiqué, colorée ou sobre...</p>
+                    <p>Au-delà de la logique graphique du site, son identité visuelle doit être facilement reconnaissable, mais surtout esthétiquement agréable. Minimaliste ou sophistiquée, colorée ou sobre...</p>
                 </div>
                 <div class="content r1">
                     <h3>La charte graphique</h3>
-                    <p>Rien n'a plus d'impact sur un site web qu'un design cohérent et compréhensible. Ou puis-je cliquer, comment hierarchiser les infos... on en discute ?</p>
+                    <p>Rien n'a plus d'impact sur un site web qu'un design cohérent et compréhensible. Où puis-je cliquer, comment hiérarchiser les infos... on en discute ?</p>
                 </div>
             </div>
             <div class="sectionContent">
                 <div class="content r1">
                     <h3>Le contenu</h3>
-                    <p>Au delà du référencement SEO, un contenu de qualité se doit de répondre aux interrogations des visiteurs : prestations, prix, positionnement, politique de confidentialité...</p>
+                    <p>Outre le référencement SEO, un contenu de qualité se doit de répondre aux interrogations des visiteurs : prestations, prix, positionnement, politique de confidentialité...</p>
                 </div>
                 <div class="content r2">
                     <h3>Debug et mise à jour</h3>
-                    <p>Il arrive par moment que des bugs ou des erreurs apparaissent dans le code lorsqu'on ajoute un nouveau script, ou que l'on mette à jour un plugin. Et parfois... résoudre le problême deviens un vrai casse-tête.</p> 
+                    <p>Il arrive par moment que des bugs ou des erreurs apparaissent dans le code lorsqu'on ajoute un nouveau script, ou que l'on mette à jour un plugin. Et parfois... résoudre le problème devient un vrai casse-tête.</p> 
                     <p>J'adore les casses-tête.</p>
                 </div>
             </div>

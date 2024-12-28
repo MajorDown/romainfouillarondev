@@ -10,23 +10,23 @@ const MyStory = () => {
         <p>
           J'ai fais mes classes dans les métiers de l'alimentation, plus
           particulièrement les produits de la mer, un domaine dans lequel j'ai
-          acquis une certaine expertise au travers des années, jusqu'a des
+          acquis une certaine expertise au travers des années, jusqu'à des
           postes de management.
         </p>
         <p>
           J'ai également été enseignant dans la musique, la guitare, pour
           ensuite me tourner de manière plus spécifique dans les métiers du son
           : calage de systèmes analogiques ou numériques, enregistrement et
-          mixage studio / live... Je me suis fais plaisir.
+          mixage studio / live... Je me suis fait plaisir.
         </p>
         <p>
-          Passionné depuis tout jeune par le monde du web, j'ai finalement fini
-          par sauter le pas en mettant à profil mes connaissances et mon
-          expérience pour proposer des solutions concrètes auprès des types
-          d'entreprises dont je connais bien les problématiques.
+          Passionné depuis tout jeune par le monde du web, j'ai finalement sauté
+          le pas en mettant à profit mes connaissances et mon expérience pour
+          proposer des solutions concrètes auprès des types d'entreprises dont
+          je connais bien les problématiques.
         </p>
         <p>
-          Enfin, je me concidère comme quelqu'un de fasciné par la nature,
+          Enfin, je me considère comme quelqu'un de fasciné par la nature,
           l'histoire et la sociologie. Et par conséquent, la question écologique
           impact également mes décisions au sein de mon activité : choix des
           technologies, des frameworks, des hébergements, du type de

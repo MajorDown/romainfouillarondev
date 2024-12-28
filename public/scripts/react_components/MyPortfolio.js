@@ -56,7 +56,7 @@ const MyPortfolio = () => {
             )}
             <li>
               <a className="linkBtn" target="_blank" href={project.repo}>
-                Lien ver le repo' Github
+                Lien vers le repo' Github
               </a>
             </li>
           </ul>

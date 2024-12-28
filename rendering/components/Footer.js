@@ -1,7 +1,9 @@
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return /*html*/ `
         <footer>
-            <p>© Copyright 2023 - Tout droit réservé</p>
+            <p>© Copyright ${year} - Tout droit réservé</p>
         </footer>
     
     `;

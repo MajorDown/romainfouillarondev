@@ -2,18 +2,18 @@ const HostSection = () => {
   return /*html*/ `
         <section id="hostSection" class="serviceSection">
             <div class="titleAndReturn">
-                <h2>Un problême avec votre hébergement ?</h2>
+                <h2>Un problème avec votre hébergement ?</h2>
                 <a href="#header">retour<img src="/images/icons/back.png" alt="return to top"/></a>
             </div>
             <div class="sectionContent">
                 <img class="sectionIcon" src="/images/icons/host.png" alt="host">
                 <div class="content r1">
-                    <p>Il est parfois difficile de s'y retrouver parmis toutes les enseignes et toutes les offres d'hébergement proposés.</p>
-                    <p>Hebergement partagés ou dédié, cloud ou VPS sont autant de termes qui peuvent porter à confusion et vous pousser à l'erreur.</p>
-                    <p>Ensemble, nous étudierons quelle est la meilleure solution d'hébergement pour votre projet.</p>
+                    <p>Il est parfois difficile de s'y retrouver parmis toutes les enseignes et toutes les offres d'hébergement proposées.</p>
+                    <p>Hebergement partagé ou dédié, cloud ou VPS sont autant de termes qui peuvent porter à confusion et vous pousser à l'erreur.</p>
+                    <p>Ensemble, nous déterminerons la meilleure solution d'hébergement pour votre projet.</p>
                 </div>
             </div>
-            <p class="whatICanDo">Ce que je peut gérer pour vous :</p>
+            <p class="whatICanDo">Ce que je peux gérer pour vous :</p>
             <div class="sectionContent">
                 <div class="content r1">
                     <h3>Hébergement mutualisé</h3>
@@ -21,7 +21,7 @@ const HostSection = () => {
                 </div>
                 <div class="content r2">
                 <h3>Hébergement dédié</h3>
-                <p>Location d'un serveur physique complet pour votre site web. Idéal pour les sites web de grande taille ou à trafic élevé.</p>
+                <p>Location d'un serveur physique complet pour votre site web. Idéal pour les sites web de grandes tailles ou à trafic élevé.</p>
                 <p>Pour tutoyer les étoiles.</p>
                 </div>
             </div>
